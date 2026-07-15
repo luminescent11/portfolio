@@ -16,18 +16,63 @@
     <nav>
       <a href="#" class="nav-brand">Rafa deGoma</a>
       <div class="nav-links">
+        <a href="#featured">Featured</a>
         <a href="#ml">Machine Learning</a>
         <a href="#simulations">Simulations</a>
         <a href="#games">Games</a>
-        <a href="#featured">Featured</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
 
     <main>
       <div id="hero">
-        <h1>Type your headline here</h1>
-        <p>One line about what this site showcases.</p>
+        <h1>I'm a student who makes machine learning applications.</h1>
+        <p>I also make physical simulations and games. Take a look at my projects below.</p>
+      </div>
+
+      <div id="featured">
+        <div class="featured-inner">
+          <div class="featured-media">
+            <div class="featured-image">
+              <img src="" class="featured-img" alt="Stryder app main screenshot" />
+            </div>
+            <div class="featured-image featured-image-small">
+              <img src="" class="featured-img" alt="Stryder app secondary screenshot" />
+            </div>
+          </div>
+
+          <div class="featured-content">
+            <span class="featured-eyebrow">Featured</span>
+            <h2>Stryder</h2>
+
+            <div class="featured-section">
+              <h3>Preview</h3>
+              <p>A short, punchy intro to what Stryder is and what it does at a glance — the elevator-pitch version for someone seeing it for the first time.</p>
+            </div>
+
+            <div class="featured-section">
+              <h3>Motivation</h3>
+              <p>Placeholder for the problem you saw and why existing tools (stopwatches, standalone GPS watches) fall short for sprinters and hurdlers specifically.</p>
+            </div>
+
+            <div class="featured-section">
+              <h3>Explanation</h3>
+              <p>Placeholder for how Stryder actually works under the hood — stride detection, GPS/accelerometer sensor fusion, and what makes the approach different from a generic fitness tracker.</p>
+            </div>
+
+            <div class="featured-section">
+              <h3>v1.0 features</h3>
+              <ul>
+                <li>Heuristic approach to stride detection (ML-driven approach planned for later)</li>
+                <li>Sensor fusion with GPS for more stability</li>
+                <li>Simple graphs to track individual race performance</li>
+                <li>100m and 400m distances</li>
+              </ul>
+            </div>
+
+            <p class="featured-stat">Currently working on shipping v1.0, aiming for under <span class="highlight">7%</span> relative MSE.</p>
+          </div>
+        </div>
       </div>
 
       <div id="ml">
@@ -41,7 +86,10 @@
             </div>
             <div class="boxcaption">
               <span class="boxtitle">Nasal Cytology Stain Object Detection</span>
-              <span class="boxdesc">One-line project description goes here.</span>
+              <span class="boxdesc">A research paper that attempts to create a higher-performing object detection model on the NMCD dataset using data augmentations and loss function adjustments.</span>
+            </div>
+            <div class="box-overlay">
+              <p>A research paper that attempts to create a higher-performing object detection model on the NMCD dataset using data augmentations and loss function adjustments.</p>
             </div>
           </a>
 
@@ -53,6 +101,9 @@
               <span class="boxtitle">Emotion Classification Model</span>
               <span class="boxdesc">One-line project description goes here.</span>
             </div>
+            <div class="box-overlay">
+              <p>One-line project description goes here.</p>
+            </div>
           </a>
 
           <a href="https://nn-from-scratch-frontend.vercel.app/" class="box">
@@ -63,17 +114,27 @@
               <span class="boxtitle">Neural Network From Scratch</span>
               <span class="boxdesc">One-line project description goes here.</span>
             </div>
+            <div class="box-overlay">
+              <p>One-line project description goes here.</p>
+            </div>
           </a>
 
           <a href="https://colab.research.google.com/drive/1DeG0yY4xt3iLZCa9perpCFk0wXGpYy9U" class="box">
             <div class="boxmedia">
-              <img src="assets/DHO_graph.png" class="boximage" alt="Neural network visualization" />
+              <img src="assets/DHO_graph.png" class="boximage" alt="DHO graph" />
             </div>
             <div class="boxcaption">
               <span class="boxtitle">Damped Harmonic Oscillation Predictor</span>
               <span class="boxdesc">One-line project description goes here.</span>
             </div>
+            <div class="box-overlay">
+              <p>One-line project description goes here.</p>
+            </div>
           </a>
+
+          <div class="box coming-soon">
+            <div class="boxcaption">Coming soon</div>
+          </div>
         </div>
       </div>
 
@@ -81,24 +142,30 @@
         <h2>Simulations</h2>
         <div class="container">
           <a href="https://computational-physics-amber.vercel.app/" class="box">
-            
+
             <div class="boxmedia">
-              <img src="assets/2d_force_screenshot.png" class="boximage" alt="Neural network visualization" />
+              <img src="assets/2d_force_screenshot.png" class="boximage" alt="2D force simulation screenshot" />
             </div>
 
             <div class="boxcaption">
               <span class="boxtitle">2D Force Simulation</span>
               <span class="boxdesc">One-line project description goes here.</span>
             </div>
+            <div class="box-overlay">
+              <p>One-line project description goes here.</p>
+            </div>
           </a>
 
           <a href="https://colab.research.google.com/drive/10MnvfeuhLvTTHmludy3WxlcYL8mHyiBq" class="box">
             <div class="boxmedia">
-              <img src="assets/double_pendulum.png" class="boximage" alt="Neural network visualization" />
+              <img src="assets/double_pendulum.png" class="boximage" alt="Double pendulum simulation" />
             </div>
             <div class="boxcaption">
               <span class="boxtitle">Double Pendulum Simulation</span>
               <span class="boxdesc">One-line project description goes here.</span>
+            </div>
+            <div class="box-overlay">
+              <p>One-line project description goes here.</p>
             </div>
           </a>
         </div>
@@ -110,49 +177,42 @@
         <div class="container">
           <a href="https://aim-trainer-final.vercel.app/" class="box">
             <div class="boxmedia">
-              <img src="assets/AWP.png" class="boximage" alt="Neural network visualization" />
+              <img src="assets/AWP.png" class="boximage" alt="FPS aim trainer gameplay screenshot" />
             </div>
             <div class="boxcaption">
               <span class="boxtitle">FPS Aim Trainer</span>
               <span class="boxdesc">One-line project description goes here.</span>
             </div>
+            <div class="box-overlay">
+              <p>One-line project description goes here.</p>
+            </div>
           </a>
 
           <a href="https://temunadal.itch.io/strawberry-summit" class="box">
             <div class="boxmedia">
-              <img src="assets/strawberry_summit_thumbnail.png" class="boximage" alt="Neural network visualization" />
+              <img src="assets/strawberry_summit_thumbnail.png" class="boximage" alt="Strawberry Summit game thumbnail" />
             </div>
             <div class="boxcaption">
               <span class="boxtitle">Strawberry Summit</span>
               <span class="boxdesc">One-line project description goes here.</span>
             </div>
+            <div class="box-overlay">
+              <p>One-line project description goes here.</p>
+            </div>
           </a>
 
           <a href="https://temunadal.itch.io/mud-dodge" class="box">
             <div class="boxmedia">
-              <img src="assets/mud_dodge_screenshot.png" class="boximage" alt="Neural network visualization" />
+              <img src="assets/mud_dodge_screenshot.png" class="boximage" alt="Mud Dodge gameplay screenshot" />
             </div>
             <div class="boxcaption">
               <span class="boxtitle">Mud Dodge</span>
               <span class="boxdesc">One-line project description goes here.</span>
             </div>
+            <div class="box-overlay">
+              <p>One-line project description goes here.</p>
+            </div>
           </a>
-        </div>
-      </div>
-
-      <div id="featured">
-        <div class="featured-inner">
-          <span class="featured-eyebrow">Featured</span>
-          <h2>Stryder</h2>
-          <p>A sensor-driven smartwatch timing and data analysis app for sprinters and hurdlers. Stryder's approach detects strides and measures user location to keep a running distance total. I'm currently working on shipping v1.0 and aiming for under <span class="">7%</span> relative MSE.</p>
-
-          <p>Expected v1.0 features:</p>
-          <ul>
-            <li>Heuristic approach to stride detection (ML-driven approach planned for later)</li>
-            <li>Sensor fusion with GPS for more stability</li>
-            <li>Simple graphs to track individual race performance</li>
-            <li>100m and 400m distances</li>
-          </ul>
         </div>
       </div>
 
