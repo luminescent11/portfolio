@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Luminescent</title>
+    <title>Rafa deGoma</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" type="image/png" href="/assets/favicon.png">
   </head>
   <body>
     <nav>
-      <h2>Luminescent</h2>
-      <a href="#ml">Machine Learning</a>
-      <a href="#simulations">Simulations</a>
-      <a href="#games">Games</a>
-      <a href="#misc">Miscellaneous</a>
+      <a href="#" class="nav-brand">Rafa deGoma</a>
+      <div class="nav-links">
+        <a href="#ml">Machine Learning</a>
+        <a href="#simulations">Simulations</a>
+        <a href="#games">Games</a>
+        <a href="#featured">Featured</a>
+        <a href="#contact">Contact</a>
+      </div>
     </nav>
 
     <main>
@@ -27,18 +34,46 @@
         <h2>Machine Learning</h2>
 
         <div class="container">
+          <a href="" class="box in-progress">
+            <span class="tape">In progress</span>
+            <div class="boxmedia">
+              <img src="assets/nasalmucosa.png" class="boximage" alt="Nasal Cytology" />
+            </div>
+            <div class="boxcaption">
+              <span class="boxtitle">Nasal Cytology Stain Object Detection</span>
+              <span class="boxdesc">One-line project description goes here.</span>
+            </div>
+          </a>
+
+          <a href="https://emotion-classification-frontend.vercel.app/" class="box">
+            <div class="boxmedia">
+              <img src="assets/NA_emotion.png" class="boximage" alt="Emotions" />
+            </div>
+            <div class="boxcaption">
+              <span class="boxtitle">Emotion Classification Model</span>
+              <span class="boxdesc">One-line project description goes here.</span>
+            </div>
+          </a>
+
           <a href="https://nn-from-scratch-frontend.vercel.app/" class="box">
-            <img src="assets/neuralnet.png" class="boximage" alt="Neural network visualization" />
-            <div class="boxcaption">Neural Network From Scratch</div>
+            <div class="boxmedia">
+              <img src="assets/neuralnet.png" class="boximage" alt="Neural network visualization" />
+            </div>
+            <div class="boxcaption">
+              <span class="boxtitle">Neural Network From Scratch</span>
+              <span class="boxdesc">One-line project description goes here.</span>
+            </div>
           </a>
 
           <a href="https://colab.research.google.com/drive/1DeG0yY4xt3iLZCa9perpCFk0wXGpYy9U" class="box">
-            <div class="boxcaption">Damped Harmonic Oscillation Predictor</div>
+            <div class="boxmedia">
+              <img src="assets/DHO_graph.png" class="boximage" alt="Neural network visualization" />
+            </div>
+            <div class="boxcaption">
+              <span class="boxtitle">Damped Harmonic Oscillation Predictor</span>
+              <span class="boxdesc">One-line project description goes here.</span>
+            </div>
           </a>
-
-          <div class="box">
-            <div class="boxcaption">Coming Soon!</div>
-          </div>
         </div>
       </div>
 
@@ -46,16 +81,26 @@
         <h2>Simulations</h2>
         <div class="container">
           <a href="https://computational-physics-amber.vercel.app/" class="box">
-            <div class="boxcaption">2D Force Simulation</div>
+            
+            <div class="boxmedia">
+              <img src="assets/2d_force_screenshot.png" class="boximage" alt="Neural network visualization" />
+            </div>
+
+            <div class="boxcaption">
+              <span class="boxtitle">2D Force Simulation</span>
+              <span class="boxdesc">One-line project description goes here.</span>
+            </div>
           </a>
 
           <a href="https://colab.research.google.com/drive/10MnvfeuhLvTTHmludy3WxlcYL8mHyiBq" class="box">
-            <div class="boxcaption">Double Pendulum Simulation</div>
+            <div class="boxmedia">
+              <img src="assets/double_pendulum.png" class="boximage" alt="Neural network visualization" />
+            </div>
+            <div class="boxcaption">
+              <span class="boxtitle">Double Pendulum Simulation</span>
+              <span class="boxdesc">One-line project description goes here.</span>
+            </div>
           </a>
-
-          <div class="box">
-            <div class="boxcaption">Coming Soon!</div>
-          </div>
         </div>
       </div>
 
@@ -64,26 +109,73 @@
 
         <div class="container">
           <a href="https://aim-trainer-final.vercel.app/" class="box">
-            <div class="boxcaption">FPS Aim Trainer</div>
+            <div class="boxmedia">
+              <img src="assets/AWP.png" class="boximage" alt="Neural network visualization" />
+            </div>
+            <div class="boxcaption">
+              <span class="boxtitle">FPS Aim Trainer</span>
+              <span class="boxdesc">One-line project description goes here.</span>
+            </div>
           </a>
 
           <a href="https://temunadal.itch.io/strawberry-summit" class="box">
-            <div class="boxcaption">Strawberry Summit</div>
+            <div class="boxmedia">
+              <img src="assets/strawberry_summit_thumbnail.png" class="boximage" alt="Neural network visualization" />
+            </div>
+            <div class="boxcaption">
+              <span class="boxtitle">Strawberry Summit</span>
+              <span class="boxdesc">One-line project description goes here.</span>
+            </div>
           </a>
 
           <a href="https://temunadal.itch.io/mud-dodge" class="box">
-            <div class="boxcaption">Mud Dodge</div>
+            <div class="boxmedia">
+              <img src="assets/mud_dodge_screenshot.png" class="boximage" alt="Neural network visualization" />
+            </div>
+            <div class="boxcaption">
+              <span class="boxtitle">Mud Dodge</span>
+              <span class="boxdesc">One-line project description goes here.</span>
+            </div>
           </a>
-
-          <div class="box">
-            <div class="boxcaption">Coming Soon!</div>
-          </div>
         </div>
       </div>
 
-      <div id="misc">
-        <h2>Miscellaneous</h2>
+      <div id="featured">
+        <div class="featured-inner">
+          <span class="featured-eyebrow">Featured</span>
+          <h2>Stryder</h2>
+          <p>A sensor-driven smartwatch timing and data analysis app for sprinters and hurdlers. Stryder's approach detects strides and measures user location to keep a running distance total. I'm currently working on shipping v1.0 and aiming for under <span class="">7%</span> relative MSE.</p>
+
+          <p>Expected v1.0 features:</p>
+          <ul>
+            <li>Heuristic approach to stride detection (ML-driven approach planned for later)</li>
+            <li>Sensor fusion with GPS for more stability</li>
+            <li>Simple graphs to track individual race performance</li>
+            <li>100m and 400m distances</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch:</p>
+        <div class="contact-links">
+          <a href="mailto:rafa8ramen@gmail.com">Email</a>
+          <a href="https://github.com/luminescent11" target="_blank" rel="noopener">GitHub</a>
+        </div>
       </div>
     </main>
+
+    <script>
+      const revealEls = document.querySelectorAll('.featured-inner');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+          }
+        });
+      }, { threshold: 0.3 });
+      revealEls.forEach((el) => observer.observe(el));
+    </script>
   </body>
 </html>
